@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #282c34;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#dictionary {
+  width: 300px;
+}
+.extension-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+#bottom-row {
+  display: inline;
+  /* flex-wrap: wrap;
+  justify-content: center; */
+}
+
+.definitions {
+  color: bold;
+  font-size: 15px;
+  color: white;
+}
+
+#word {
+  border-radius: 0px;
+  width: 200px;
+  text-align: left;
+}
+
+#laguage-select {
+  border-radius: 0px;
+  width: 80px;
+  text-align: left;
+}
+
+#searchbar {
+  border-radius: 0px;
+  width: 80px;
+  text-align: left;
+}
